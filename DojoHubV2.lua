@@ -1550,7 +1550,6 @@ spawn(function()
         BoneCount:SetDesc("You Have: " .. tostring(bones) .. " Bones")
     end
 end)
-local RFSubmarineWorkerSpeak = replicated.Modules.Net["RF/SubmarineWorkerSpeak"]
 
 Tabs.Shop:AddSection("Shop Options")
 Tabs.Shop:AddButton({
@@ -2204,6 +2203,8 @@ spawn(function()
     end)
   end
 end)
+
+local RFSubmarineWorkerSpeak = replicated.Modules.Net["RF/SubmarineWorkerSpeak"]
 WeaponDropdown = Tabs.Main:AddDropdown({
     Name = "Select Weapon",
     Options = {"Melee","Sword","Blox Fruit","Gun"},
