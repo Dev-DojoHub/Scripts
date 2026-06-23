@@ -1332,7 +1332,7 @@ local MobileButton = Minimizer:CreateMobileMinimizer({
 local Tabs = {
     Info = Window:MakeTab({ Title = "Discord & Status", Icon = "Info" }),
     Main = Window:MakeTab({ Title = "Farming", Icon = "home" }),
-    Setting = Window:MakeTab({ Title = "Setting Farm", Icon = "settings" })
+    Settings = Window:MakeTab({ Title = "Setting Farm", Icon = "settings" })
 }
 
 Tabs.Info:AddSection("Discord")
