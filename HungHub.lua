@@ -11982,8 +11982,8 @@ end
 StartMainLoops()
 
 Window:Notify({
-  Title = "OK Hub",
-  Content = "OK hub da comeback",
-  Image = "rbxassetid://127632820302449",
+  Title = "Hung Hub Loaded !",
+  Content = "Hung hub da comeback",
+  Image = "rbxassetid://12763282030249",
   Duration = 5
 })
